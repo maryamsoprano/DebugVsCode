@@ -1,0 +1,29 @@
+<html>
+
+<head>
+  <base href="/">
+  <title>MEMS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ 
+ 
+ 
+  <script src="//cdn.auth0.com/js/lock-8.1.min.js"></script>
+
+  <script src="node_modules/es6-shim/es6-shim.min.js"></script>
+ 
+
+  <script src="app/js/base64-arraybuffer.js"></script>
+  <script src="app/js/ui.js"></script>
+
+  <script src="systemjs.config.js"></script>
+  <script>
+    System.import('app/main').catch(function(err){ console.error(err); });
+  </script>
+</head>
+
+<body>
+  <my-app>Loading  ...</my-app>
+</body>
+
+</html>
